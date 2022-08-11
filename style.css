@@ -29,7 +29,6 @@ body{
 }
 .container__header__box1{
     padding: 40px;
-
     display: flex;
     justify-content: space-between;
 
@@ -277,6 +276,7 @@ a:hover{
     
         margin-top: 80px;
         padding: 10px;
+        width: 375px;
        
     
     }
