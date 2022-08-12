@@ -23,6 +23,8 @@ body{
     
 }
 .container__header{
+
+    
     background-image: url("images/bg-hero-desktop.svg");
     background-position: center center;
     background-color: #EDFAFF;
@@ -31,6 +33,7 @@ body{
     padding: 40px;
     display: flex;
     justify-content: space-between;
+   
 
 }
 .container__header__box1 img:nth-child(1){
@@ -44,8 +47,13 @@ body{
     cursor: pointer;
     font-size: small;
     border: none;
-    box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.204);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.204);
+    transition: 400ms;
     
+  
+}
+.container__header__box1 button:nth-child(2):hover{
+    opacity: 0.7;
 }
 
 
@@ -53,8 +61,9 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    width: 370px;
+    
 }
+
 .header__box2--settings{
     margin-top: 100px;
     padding: 10px;
