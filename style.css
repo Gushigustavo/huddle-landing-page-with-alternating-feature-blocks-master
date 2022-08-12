@@ -256,7 +256,7 @@ a:hover{
     
     .container__header{
         background-image: url("images/bg-hero-mobile.svg");
-        background-position: center center;
+        background-position: center top;
         background-color: #EDFAFF;
     }
     .container__header__box2{
@@ -380,7 +380,7 @@ a:hover{
             height: 60px;
             position: absolute;
             top: 2880px;
-            left: 15px;
+            left: 13px;
           
         }
         .container__footer > div{
@@ -405,6 +405,9 @@ a:hover{
         
 
         
+}
+.attribution{
+    margin-top: 20px;
 }
 
 
